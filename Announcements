@@ -1,2 +1,5 @@
-{{ $embed := cembed "title" "This is my title" "description" "This is my description." }}
-{{ sendMessage nil $embed }}
+message.channel.send({ embed: {
+    color: 3447003,
+    description: "A very simple Embed!"
+  }
+});
